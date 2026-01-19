@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "rust-skills",
+      "name": "CoRust",
       "source": {
         "source": "github",
-        "repo": "ZhangHanDong/rust-skills"
+        "repo": "FineKe/rust-skills"
       },
       "description": "Comprehensive Rust development cognitive framework with 400+ keyword triggers"
     }
