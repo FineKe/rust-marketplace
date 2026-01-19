@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "rust-skills",
-      "source": "./plugins/rust-skills",
+      "source": "ZhangHanDong/rust-skills",
       "description": "Comprehensive Rust development cognitive framework with 400+ keyword triggers"
     }
   ]
