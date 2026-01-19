@@ -1,0 +1,75 @@
+{
+  "name": "Claude Code Plugin Marketplace",
+  "version": "1.0.0",
+  "description": "A curated collection of Claude Code plugins for various development needs",
+  "author": "Your Organization",
+  "repository": "https://github.com/your-org/rust-marketplace",
+  "homepage": "https://github.com/your-org/rust-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "marketplace",
+    "plugins",
+    "skills",
+    "rust"
+  ],
+  "engines": {
+    "claude-code": ">=1.0.0"
+  },
+  "skills": [
+    {
+      "name": "plugin",
+      "path": ".claude/skills/marketplace/plugin.md",
+      "description": "Plugin management commands for installing, listing, and managing Claude Code plugins",
+      "commands": [
+        "/plugin list",
+        "/plugin install <plugin-id>",
+        "/plugin info <plugin-id>",
+        "/plugin uninstall <plugin-id>"
+      ]
+    }
+  ],
+  "plugins": {
+    "count": 1,
+    "available": [
+      {
+        "id": "rust-skills",
+        "name": "Rust Skills",
+        "version": "main",
+        "repository": "https://github.com/ZhangHanDong/rust-skills",
+        "description": "Comprehensive Rust development cognitive framework with 400+ keyword triggers",
+        "tags": ["rust", "skills", "meta-cognition"]
+      }
+    ]
+  },
+  "scripts": {
+    "install": "./scripts/install-plugin.sh",
+    "list": "./scripts/list-plugins.sh",
+    "link": "./scripts/link-plugin.sh"
+  },
+  "config": {
+    "marketplace_file": "marketplace.yaml",
+    "plugins_dir": "plugins",
+    "install_dir": ".claude/skills"
+  },
+  "permissions": {
+    "required": [
+      "mcp__acp__Bash",
+      "mcp__acp__Read",
+      "mcp__acp__Write"
+    ],
+    "optional": [
+      "agent-browser"
+    ]
+  },
+  "documentation": {
+    "readme": "README.md",
+    "contributing": "CONTRIBUTING.md",
+    "changelog": "CHANGELOG.md"
+  },
+  "support": {
+    "issues": "https://github.com/your-org/rust-marketplace/issues",
+    "discussions": "https://github.com/your-org/rust-marketplace/discussions",
+    "wiki": "https://github.com/your-org/rust-marketplace/wiki"
+  }
+}

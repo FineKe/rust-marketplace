@@ -1,0 +1,54 @@
+# Claude Code Marketplace Configuration
+# 管理所有可用的 Claude Code Plugins
+
+version: "1.0.0"
+marketplace:
+  name: "Claude Code Plugin Marketplace"
+  description: "A curated collection of Claude Code plugins for various development needs"
+  repository: "https://github.com/your-org/rust-marketplace"
+
+plugins:
+  - id: rust-skills
+    name: "Rust Skills"
+    version: "main"
+    source: plugins/rust-skills
+    type: submodule
+    repository: https://github.com/ZhangHanDong/rust-skills
+    description: |
+      Rust 开发的三层认知框架和技能集，包括：
+      - Layer 1: 语言机制（所有权、生命周期、错误处理等）
+      - Layer 2: 设计模式、性能优化、生态集成
+      - Layer 3: 领域特定约束（FinTech、ML、IoT等）
+      提供 400+ 关键词触发器和动态 crate 技能生成
+    author: ZhangHanDong
+    homepage: https://github.com/ZhangHanDong/rust-skills
+    tags:
+      - rust
+      - skills
+      - meta-cognition
+      - programming
+    requires_permissions:
+      - mcp__acp__Bash
+      - agent-browser
+    features:
+      - skills: true
+      - agents: true
+      - hooks: true
+      - commands: true
+    install_path: .claude/skills/rust-skills
+    enabled: false
+
+  # 未来可以添加更多 plugins
+  # - id: python-skills
+  #   name: "Python Skills"
+  #   ...
+
+settings:
+  # 默认安装配置
+  default_install_method: symlink  # 可选: symlink, copy
+  auto_update: false
+  check_updates_interval: 7  # days
+
+  # 权限管理
+  prompt_for_permissions: true
+  allow_auto_permissions: false
