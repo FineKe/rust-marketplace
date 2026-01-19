@@ -8,7 +8,7 @@
 
 1. **Fork 此仓库**
    ```bash
-   git clone https://github.com/your-username/rust-marketplace.git
+   git clone https://github.com/FineKe/rust-marketplace.git
    cd rust-marketplace
    ```
 

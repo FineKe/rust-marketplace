@@ -2,17 +2,11 @@
   "name": "Claude Code Plugin Marketplace",
   "version": "1.0.0",
   "description": "A curated collection of Claude Code plugins for various development needs",
-  "author": "Your Organization",
-  "repository": "https://github.com/your-org/rust-marketplace",
-  "homepage": "https://github.com/your-org/rust-marketplace",
+  "author": "FineKe",
+  "repository": "https://github.com/FineKe/rust-marketplace",
+  "homepage": "https://github.com/FineKe/rust-marketplace",
   "license": "MIT",
-  "keywords": [
-    "claude-code",
-    "marketplace",
-    "plugins",
-    "skills",
-    "rust"
-  ],
+  "keywords": ["claude-code", "marketplace", "plugins", "skills", "rust"],
   "engines": {
     "claude-code": ">=1.0.0"
   },
@@ -53,14 +47,8 @@
     "install_dir": ".claude/skills"
   },
   "permissions": {
-    "required": [
-      "mcp__acp__Bash",
-      "mcp__acp__Read",
-      "mcp__acp__Write"
-    ],
-    "optional": [
-      "agent-browser"
-    ]
+    "required": ["mcp__acp__Bash", "mcp__acp__Read", "mcp__acp__Write"],
+    "optional": ["agent-browser"]
   },
   "documentation": {
     "readme": "README.md",
@@ -68,8 +56,8 @@
     "changelog": "CHANGELOG.md"
   },
   "support": {
-    "issues": "https://github.com/your-org/rust-marketplace/issues",
-    "discussions": "https://github.com/your-org/rust-marketplace/discussions",
-    "wiki": "https://github.com/your-org/rust-marketplace/wiki"
+    "issues": "https://github.com/FineKe/rust-marketplace/issues",
+    "discussions": "https://github.com/FineKe/rust-marketplace/discussions",
+    "wiki": "https://github.com/FineKe/rust-marketplace/wiki"
   }
 }

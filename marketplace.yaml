@@ -5,7 +5,7 @@ version: "1.0.0"
 marketplace:
   name: "Claude Code Plugin Marketplace"
   description: "A curated collection of Claude Code plugins for various development needs"
-  repository: "https://github.com/your-org/rust-marketplace"
+  repository: "https://github.com/FineKe/rust-marketplace"
 
 plugins:
   - id: rust-skills
@@ -45,9 +45,9 @@ plugins:
 
 settings:
   # 默认安装配置
-  default_install_method: symlink  # 可选: symlink, copy
+  default_install_method: symlink # 可选: symlink, copy
   auto_update: false
-  check_updates_interval: 7  # days
+  check_updates_interval: 7 # days
 
   # 权限管理
   prompt_for_permissions: true

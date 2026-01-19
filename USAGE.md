@@ -440,4 +440,4 @@ git submodule add https://github.com/ZhangHanDong/rust-skills.git .claude/skills
 
 ---
 
-有问题？[提交 Issue](https://github.com/your-org/rust-marketplace/issues) 或查看 [Discussions](https://github.com/your-org/rust-marketplace/discussions)
+有问题？[提交 Issue](https://github.com/FineKe/rust-marketplace/issues) 或查看 [Discussions](https://github.com/FineKe/rust-marketplace/discussions)

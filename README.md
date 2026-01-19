@@ -15,7 +15,7 @@
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/your-org/rust-marketplace.git
+git clone https://github.com/FineKe/rust-marketplace.git
 cd rust-marketplace
 ```
 
@@ -333,8 +333,8 @@ MIT License
 
 ## 联系方式
 
-- Issues: https://github.com/your-org/rust-marketplace/issues
-- Discussions: https://github.com/your-org/rust-marketplace/discussions
+- Issues: https://github.com/FineKe/rust-marketplace/issues
+- Discussions: https://github.com/FineKe/rust-marketplace/discussions
 
 ---
 
