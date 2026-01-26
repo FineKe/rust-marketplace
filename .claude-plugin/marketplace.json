@@ -8,7 +8,7 @@
       "name": "CoRust",
       "source": {
         "source": "github",
-        "repo": "FineKe/rust-skills"
+        "repo": "actionbook/rust-skills"
       },
       "description": "Comprehensive Rust development cognitive framework with 400+ keyword triggers"
     }
